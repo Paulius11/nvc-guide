@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "NVC Empathy Guide",
+    "slug": "empathy-reference-app",
+    "version": "1.0.0",
+    "description": "A comprehensive guide to human needs and emotions based on Nonviolent Communication (NVC) principles. Explore needs, emotions, and build empathy skills.",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "navigationBar": {
+        "visible": "immersive"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.paulius11.empathyreferenceapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ac092b38-113c-44d4-85f8-15cc200cd574"
+      }
+    }
+  }
+}
